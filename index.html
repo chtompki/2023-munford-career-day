@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Mary Munford Career Day, 2023</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="shortcut icon" href="#" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+
+
+
+
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <!-- TITLE-->
+        <section>
+            <h2>
+                Keeping the internet safe and secure
+            </h2>
+            <h4>
+                Get involved and help with Open Source Software.
+            </h4>
+            <br>
+                <small>Created by
+                    <a href="https://github.com/chtompki">
+                        Rob Tompkins (chtompki)</a></small><br/>
+                <small>Presentation Address: <a href="http://www.robtompkins.com/2023-munford-career-day">
+                    http://www.robtompkins.com/2023-munford-career-day</a></small>
+            </p>
+        </section>
+
+        <!-- SLIDE 1 -->
+        <section>
+            <h2>Who is this guy?</h2>
+            <ul>
+                <li class="fragment">Mathematician and Logician by schooling.</li>
+                <li class="fragment">Software Developer in Java, Python, DevOps, and Security.</li>
+                <li class="fragment">Worked in financial and news sectors.</li>
+                <li class="fragment">Project management committee for Apache Commons, Apache Member, and VP Jakarta EE Relations.</li>
+                <li class="fragment">Adventure sports athlete (whitewater kayaking, rock climbing, and mountain biking).</li>
+            </ul>
+        </section>
+
+        <!-- SLIDE 2 -->
+        <section>
+            <p>
+                <img src="images/sunshineLeft.jpeg" style="max-width: 600px;"/>
+            </p>
+        </section>
+
+        <!-- SLIDE 3 -->
+        <section>
+            <p>
+                <img src="images/elCap.jpeg" style="max-width: 300px;"/>
+            </p>
+        </section>
+
+        <!-- SLIDE 4 -->
+        <section>
+            <p>
+                <img src="images/canalDrop.jpeg" style="max-width: 600px;"/>
+            </p>
+        </section>
+
+        <!-- SLIDE 20 -->
+        <section>
+            <h1>Questions?</h1>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/math/math.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ],
+
+        math: {
+            mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+            config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+        }
+    });
+</script>
+</body>
+</html>
